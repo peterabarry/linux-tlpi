@@ -25,7 +25,8 @@ DIRS = 	lib \
 	threads time timers tty \
 	users_groups \
 	vmem \
-	xattr
+	xattr \
+        namespaces
 
 # The "namespaces" directory is deliberately excluded from the above
 # list because much of the code requires a fairly recent kernel and
